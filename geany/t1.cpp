@@ -1,7 +1,7 @@
 #include <iostream>
 #include<cstring>
-
-//#include<conio>
+#include<cstdio>
+//
 //geany compiler (mingw ??)
 
 using namespace std;
@@ -23,12 +23,12 @@ int main()
    char a[10] ={"helllo"};
    char b[10] ;
    strcpy(a,b);
-   		
+   puts(a); 
+   puts("!!!");  
+   puts(b);		
 
   int c = switch1(5,5);
   cout << c;
-
-
 	return 0;
 	
 	}
